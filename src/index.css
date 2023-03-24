@@ -12,10 +12,10 @@ ul {
     --main-color:tomato;
 }
 .container {
-    background-image: url(../img/272749-laptop-computer-macbook-and-desk-hd.jpg);
+    background-image: url(../img/1.jpg);
     background-size: cover;
     color: white;
-    height: 700px;
+    height: 100vh;
 }
 .container::after {
     content: '';
@@ -70,7 +70,7 @@ span {
     font-size: 40px;
     }
 nav {
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     background-color: rgb(255, 255, 255);
@@ -85,7 +85,7 @@ nav {
 nav .icon {
     display: flex;
     align-items: center;
-    position : absolute;
+    position : fixed;
     color: black;
     right: 1px;
     top: 50%;
